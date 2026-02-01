@@ -116,20 +116,25 @@ export function SettingsView({ allQuestions, onStart }: SettingsViewProps) {
                 </div>
             </div>
 
-            <div className="flex-1 content-end pb-8">
-                <button
-                    onClick={handleStart}
-                    disabled={!isValid}
-                    className={cn(
-                        "w-full flex items-center justify-center space-x-2 py-4 rounded-xl text-lg font-bold text-white shadow-lg shadow-indigo-200 transition-all transform hover:-translate-y-0.5 active:translate-y-0",
-                        isValid
-                            ? "bg-indigo-600 hover:bg-indigo-700"
-                            : "bg-slate-300 cursor-not-allowed shadow-none transform-none"
-                    )}
-                >
-                    <span>Start Quiz</span>
-                    <Play size={20} fill="currentColor" />
-                </button>
+            {/* Padding to prevent content hiding behind footer */}
+            <div className="pb-24"></div>
+
+            <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 backdrop-blur-md border-t border-slate-200 md:static md:bg-transparent md:border-0 md:p-0 md:backdrop-blur-none transition-all z-20">
+                <div className="max-w-md mx-auto">
+                    <button
+                        onClick={handleStart}
+                        disabled={!isValid}
+                        className={cn(
+                            "w-full flex items-center justify-center space-x-2 py-4 rounded-xl text-lg font-bold text-white shadow-lg shadow-indigo-200 transition-all transform hover:-translate-y-0.5 active:translate-y-0",
+                            isValid
+                                ? "bg-indigo-600 hover:bg-indigo-700"
+                                : "bg-slate-300 cursor-not-allowed shadow-none transform-none"
+                        )}
+                    >
+                        <span>Start Quiz</span>
+                        <Play size={20} fill="currentColor" />
+                    </button>
+                </div>
             </div>
         </div>
     );
