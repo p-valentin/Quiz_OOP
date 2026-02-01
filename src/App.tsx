@@ -38,8 +38,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-indigo-100 selection:text-indigo-800 flex flex-col md:items-center md:justify-center md:p-4">
-      <main className="w-full h-[100dvh] md:h-[850px] md:max-h-[90vh] md:max-w-4xl bg-white md:shadow-2xl overflow-hidden md:rounded-3xl relative transition-all duration-500 ease-out flex flex-col">
+    <div className="min-h-dvh md:min-h-screen bg-white md:bg-slate-50 text-slate-900 font-sans selection:bg-indigo-100 selection:text-indigo-800 flex flex-col md:items-center md:justify-center md:p-4">
+      <main className="flex-1 w-full md:h-[850px] md:max-h-[90vh] md:max-w-4xl bg-white md:shadow-2xl overflow-hidden md:rounded-3xl relative transition-all duration-500 ease-out flex flex-col">
         {view === 'settings' && (
           <SettingsView allQuestions={dataset} onStart={handleStart} />
         )}
