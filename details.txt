@@ -1,0 +1,26 @@
+{
+  "question": "Ce tehnologie putem folosi pentru a controla instanțierea obiectelor în .net core? (două cuvinte în engleză)",
+  "source": 10,
+  "answers": [
+    {
+      "answerText": "generic host",
+      "correctAnswer": false
+    },
+    {
+      "answerText": "generichost",
+      "correctAnswer": false
+    },
+    {
+      "answerText": "Generic Host",
+      "correctAnswer": false
+    },
+    {
+      "answerText": "GenericHost",
+      "correctAnswer": false
+    },
+    {
+      "answerText": "Generic Host Builder",
+      "correctAnswer": false
+    }
+  ]
+}

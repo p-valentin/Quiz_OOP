@@ -2317,23 +2317,23 @@
     "source": 10,
     "answers": [
       {
-        "answerText": "generic host",
-        "correctAnswer": false
-      },
-      {
-        "answerText": "generichost",
+        "answerText": "Dependency Injection",
         "correctAnswer": false
       },
       {
         "answerText": "Generic Host",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Garbage Collection",
         "correctAnswer": false
       },
       {
-        "answerText": "GenericHost",
+        "answerText": "Common Language Runtime",
         "correctAnswer": false
       },
       {
-        "answerText": "Generic Host Builder",
+        "answerText": "Managed Extensibility",
         "correctAnswer": false
       }
     ]
