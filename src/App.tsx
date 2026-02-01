@@ -21,7 +21,13 @@ function App() {
     // 3. Slice
     const selected = shuffled.slice(0, count);
 
-    setActiveQuestions(selected);
+    // 4. Shuffle answers for each question
+    const questionsWithShuffledAnswers = selected.map(q => ({
+      ...q,
+      answers: shuffleArray(q.answers)
+    }));
+
+    setActiveQuestions(questionsWithShuffledAnswers);
     setUserAnswers([]);
     setView('quiz');
   };
@@ -47,8 +53,14 @@ function App() {
     // 3. Shuffle them
     const shuffled = shuffleArray(wrongQuestions);
 
-    // 4. Start new quiz
-    setActiveQuestions(shuffled);
+    // 4. Shuffle answers again for retry
+    const questionsWithShuffledAnswers = shuffled.map(q => ({
+      ...q,
+      answers: shuffleArray(q.answers)
+    }));
+
+    // 5. Start new quiz
+    setActiveQuestions(questionsWithShuffledAnswers);
     setUserAnswers([]);
     setView('quiz');
   };
