@@ -2111,6 +2111,120 @@
     ]
   },
   {
+    "question": "Care din următoarele afirmații reprezintă un avantaj al moștenirii?",
+    "source": 9,
+    "answers": [
+      {
+        "answerText": "modificările în clasa de bază nu necesită testarea clasei copil",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "refolosirea comportamentului din clasa de bază",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "modificările în clasa de bază nu se propagă în clasa copil",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații descriu generalizarea?",
+    "source": 9,
+    "answers": [
+      {
+        "answerText": "clasele din vârful ierarhiei sunt mai generale",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "adăugarea de comportament  specific în clasele copil",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "clasele de la baza ierarhiei sunt mai generale",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "La ce ajută supraîncărcarea constructorilor?",
+    "source": 9,
+    "answers": [
+      {
+        "answerText": "schimbarea comportamentului unei metode",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "schimbarea comportamentului moștenit",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "declararea mai multor atribute cu același nume dar tip diferit",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "crearea unui obiect în mai multe moduri",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Când este apelat constructorul clasei de bază?",
+    "source": 9,
+    "answers": [
+      {
+        "answerText": "înainte de constructorul clasei copil",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "după constructorul clasei copil",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "nu este apelat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "în același timp cu constructorul clasei copil",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "În ce condiții rezultatul metodei student1.Equals(student2) este adevărat?",
+    "source": 9,
+    "answers": [
+      {
+        "answerText": "dacă toate proprietățile sunt egale",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "dacă variabilele conțin aceeași referință",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "rezultatul depinde de suprascrierea metodei Equals",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
     "question": "Este recomandată refolosirea de tip copy-paste?",
     "source": 10,
     "answers": [
