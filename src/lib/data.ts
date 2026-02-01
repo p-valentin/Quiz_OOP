@@ -1,10 +1,8 @@
 import rawQuestions from '../../question.json';
 import type { Question } from './types';
 
-import { uniqBy } from 'lodash';
-
-// Cast and export the dataset, removing duplicates based on question text
-export const dataset: Question[] = uniqBy(rawQuestions as unknown as Question[], 'question');
+// Cast and export the dataset
+export const dataset: Question[] = rawQuestions as unknown as Question[];
 
 // Helper to get unique sources
 export function getUniqueSources(questions: Question[]): number[] {

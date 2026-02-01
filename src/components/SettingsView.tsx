@@ -2,7 +2,9 @@ import type { Question } from '../lib/types';
 import { getUniqueSources } from '../lib/data';
 import { Settings, Play } from 'lucide-react';
 import { cn } from '../lib/utils';
-import React, { useMemo } from 'react';
+import { useMemo, useState } from 'react';
+
+import { uniqBy } from 'lodash';
 
 interface SettingsViewProps {
     allQuestions: Question[];
@@ -10,13 +12,15 @@ interface SettingsViewProps {
 }
 
 export function SettingsView({ allQuestions, onStart }: SettingsViewProps) {
-    const uniqueSources = useMemo(() => getUniqueSources(allQuestions), [allQuestions]);
+    const [selectedSources, setSelectedSources] = useState<number[]>([]);
+    const [questionCount, setQuestionCount] = useState<number | ''>(10);
 
-    const [selectedSources, setSelectedSources] = React.useState<number[]>([]);
-    const [questionCount, setQuestionCount] = React.useState<number | ''>(10);
+    const uniqueSources = getUniqueSources(allQuestions);
 
+    // Calculate TRUE unique available questions based on selection
     const availableQuestionsCount = useMemo(() => {
-        return allQuestions.filter(q => selectedSources.includes(q.source)).length;
+        const filtered = allQuestions.filter(q => selectedSources.includes(q.source));
+        return uniqBy(filtered, 'question').length;
     }, [allQuestions, selectedSources]);
 
     const handleToggleSource = (id: number) => {

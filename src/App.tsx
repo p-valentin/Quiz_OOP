@@ -8,17 +8,23 @@ import { QuizView } from './components/QuizView';
 
 type ViewState = 'settings' | 'quiz' | 'summary';
 
+import { uniqBy } from 'lodash';
+
 function App() {
   const [view, setView] = useState<ViewState>('settings');
   const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
 
   const handleStart = (sourceIds: number[], count: number) => {
-    // 1. Filter
-    const filtered = dataset.filter(q => sourceIds.includes(q.source));
-    // 2. Shuffle
-    const shuffled = shuffleArray(filtered);
-    // 3. Slice
+    // 1. Filter by source
+    const filteredBySource = dataset.filter(q => sourceIds.includes(q.source));
+
+    // 2. Deduplicate (ensure we don't pick same question twice if it exists in multiple selected sources)
+    const uniqueQuestions = uniqBy(filteredBySource, 'question');
+
+    // 3. Shuffle
+    const shuffled = shuffleArray(uniqueQuestions);
+    // 4. Slice
     const selected = shuffled.slice(0, count);
 
     // 4. Shuffle answers for each question
