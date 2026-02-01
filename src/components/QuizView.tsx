@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import type { Question, UserAnswer } from '../lib/types';
 import { cn } from '../lib/utils';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, X } from 'lucide-react';
 
 interface QuizViewProps {
     questions: Question[];
     onComplete: (answers: UserAnswer[]) => void;
+    onCancel: () => void;
 }
 
-export function QuizView({ questions, onComplete }: QuizViewProps) {
+export function QuizView({ questions, onComplete, onCancel }: QuizViewProps) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [answers, setAnswers] = useState<UserAnswer[]>([]);
     const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -83,10 +84,20 @@ export function QuizView({ questions, onComplete }: QuizViewProps) {
                     {/* Left Column: Question & Image */}
                     <div className="space-y-6 md:sticky md:top-0">
                         <div className="flex justify-between items-center text-sm font-medium text-slate-500">
-                            <span>Question {currentIndex + 1} of {questions.length}</span>
+                            <button
+                                onClick={onCancel}
+                                className="p-2 -ml-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors flex items-center gap-2 group"
+                                aria-label="Cancel Quiz"
+                            >
+                                <X size={20} className="group-hover:scale-110 transition-transform" />
+                                <span className="opacity-0 group-hover:opacity-100 transition-opacity text-xs uppercase font-bold">Cancel</span>
+                            </button>
                             <span className="text-indigo-600 bg-indigo-50 px-2 py-1 rounded truncate max-w-[120px]">
-                                Src: {currentQuestion.source}
+                                Curs: {currentQuestion.source}
                             </span>
+                        </div>
+                        <div className="flex justify-between items-center text-sm font-medium text-slate-500">
+                            <span>Question {currentIndex + 1} of {questions.length}</span>
                         </div>
 
                         <h2 className="text-2xl md:text-3xl font-bold text-slate-900 leading-tight">

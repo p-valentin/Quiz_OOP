@@ -5,9 +5,10 @@ interface SummaryViewProps {
     questions: Question[];
     userAnswers: UserAnswer[];
     onRestart: () => void;
+    onRetryMistakes: () => void;
 }
 
-export function SummaryView({ questions, userAnswers, onRestart }: SummaryViewProps) {
+export function SummaryView({ questions, userAnswers, onRestart, onRetryMistakes }: SummaryViewProps) {
     const correctCount = userAnswers.filter(a => a.isCorrect).length;
     const total = questions.length;
     const percentage = Math.round((correctCount / total) * 100);
@@ -83,7 +84,16 @@ export function SummaryView({ questions, userAnswers, onRestart }: SummaryViewPr
                 )}
             </div>
 
-            <div className="p-6 shrink-0 bg-white border-t border-slate-100">
+            <div className="p-6 shrink-0 bg-white border-t border-slate-100 space-y-3">
+                {wrongAnswers.length > 0 && (
+                    <button
+                        onClick={onRetryMistakes}
+                        className="w-full flex items-center justify-center space-x-2 py-4 rounded-xl text-lg font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 transition-colors"
+                    >
+                        <RefreshCw size={20} />
+                        <span>Retry Mistakes Only</span>
+                    </button>
+                )}
                 <button
                     onClick={onRestart}
                     className="w-full flex items-center justify-center space-x-2 py-4 rounded-xl text-lg font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"

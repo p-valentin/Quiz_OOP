@@ -3396,5 +3396,160 @@
         "correctAnswer": false
       }
     ]
+  },
+  {
+    "question": "Câți constructori are clasa?",
+    "source": 5,
+    "image": "https://images.mentimeter.com/images/9283b02a-1e12-41af-8255-022c48c1010b.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=e2500d472dd4afc6a363e2ed1831afc5",
+    "answers": [
+      {
+        "answerText": "1",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "0",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "2",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nelimitat",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este cuvântul cheie care marchează atributele clasei?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "static",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "public",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "void",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "class",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum poate fi abstractizat codul care nu este portabil? (un singur cuvânt EN/RO)",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "Wrapper",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Clone",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mirror",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Binder",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concept OO este folosit in testarea unitară pentru izola clasele testate de dependințe? (un singur cuvânt în română fără diacritice)",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "Mocking",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Debugging",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Profiling",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Tracing",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce tehnologie putem folosi pentru a controla instanțierea obiectelor în .net core? (două cuvinte în engleză)",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "Generic Host",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Static Manager",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Object Factory",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "App Container",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Compoziția ajută la crearea de părți interschimbabile. Ce favorizează acest lucru? (un singur cuvânt în română)",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "decuplarea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "mostenirea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "rigiditatea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "complexitatea",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum poate fi evitată cuplarea strânsă? (două cuvinte în RO/EN fără diacritice)",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Dependency Injection",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Direct Instantiation",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Global State",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Static Coupling",
+        "correctAnswer": false
+      }
+    ]
   }
 ]
