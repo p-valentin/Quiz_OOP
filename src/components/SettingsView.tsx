@@ -116,10 +116,7 @@ export function SettingsView({ allQuestions, onStart }: SettingsViewProps) {
                 </div>
             </div>
 
-            {/* Padding to prevent content hiding behind footer */}
-            <div className="pb-24"></div>
-
-            <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 backdrop-blur-md border-t border-slate-200 md:absolute md:bg-white md:backdrop-blur-none transition-all z-20">
+            <div className="sticky bottom-0 -mx-6 px-6 py-4 bg-white/80 backdrop-blur-md border-t border-slate-100 md:border-0 md:bg-white md:backdrop-blur-none transition-all z-20 mt-auto">
                 <div className="max-w-md mx-auto">
                     <button
                         onClick={handleStart}
