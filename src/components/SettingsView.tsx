@@ -41,7 +41,7 @@ export function SettingsView({ allQuestions, onStart }: SettingsViewProps) {
     const isValid = selectedSources.length > 0 && typeof questionCount === 'number' && questionCount > 0 && questionCount <= availableQuestionsCount;
 
     return (
-        <div className="flex flex-col h-full max-w-md mx-auto p-6 space-y-8 animate-fade-in">
+        <div className="flex flex-col h-full max-w-md mx-auto p-6 space-y-8 animate-fade-in relative overflow-y-auto md:overflow-visible">
             <header className="text-center space-y-2 mt-8">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-indigo-100 text-indigo-600 mb-4">
                     <Settings size={32} />
@@ -119,7 +119,7 @@ export function SettingsView({ allQuestions, onStart }: SettingsViewProps) {
             {/* Padding to prevent content hiding behind footer */}
             <div className="pb-24"></div>
 
-            <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 backdrop-blur-md border-t border-slate-200 md:static md:bg-transparent md:border-0 md:p-0 md:backdrop-blur-none transition-all z-20">
+            <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 backdrop-blur-md border-t border-slate-200 md:absolute md:bg-white md:backdrop-blur-none transition-all z-20">
                 <div className="max-w-md mx-auto">
                     <button
                         onClick={handleStart}
