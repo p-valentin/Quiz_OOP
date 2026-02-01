@@ -41,10 +41,29 @@ export function SummaryView({ questions, userAnswers, onRestart, onRetryMistakes
                         <span className="text-3xl font-bold">{percentage}%</span>
                     </div>
                 </div>
-                <p className="text-indigo-100 text-lg">You scored {correctCount} out of {total}</p>
+                <p className="text-indigo-100 text-lg mb-6">You scored {correctCount} out of {total}</p>
+
+                <div className="flex flex-col gap-3 w-full max-w-sm mx-auto">
+                    {wrongAnswers.length > 0 && (
+                        <button
+                            onClick={onRetryMistakes}
+                            className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl text-md font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 transition-all shadow-md active:scale-[0.98]"
+                        >
+                            <RefreshCw size={18} />
+                            <span>Retry Mistakes</span>
+                        </button>
+                    )}
+                    <button
+                        onClick={onRestart}
+                        className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl text-md font-bold text-indigo-900 bg-white hover:bg-indigo-50 transition-all shadow-md active:scale-[0.98]"
+                    >
+                        <RefreshCw size={18} />
+                        <span>Start New Quiz</span>
+                    </button>
+                </div>
             </div>
 
-            <div className="flex-1 p-6 space-y-6">
+            <div className="flex-1 p-6 space-y-6 pb-12">
                 <h3 className="text-lg font-bold text-slate-800 flex items-center gap-2">
                     <AlertCircle size={20} className="text-amber-500" />
                     Mistakes Review
@@ -64,7 +83,7 @@ export function SummaryView({ questions, userAnswers, onRestart, onRetryMistakes
                             const correctAnswerText = question.answers.find(a => a.correctAnswer)?.answerText;
 
                             return (
-                                <div key={idx} className="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
+                                <div key={idx} className="bg-white p-4 rounded-xl border border-red-100 shadow-sm text-left">
                                     <p className="font-medium text-slate-900 mb-3">{question.question}</p>
 
                                     <div className="space-y-2 text-sm">
@@ -82,25 +101,6 @@ export function SummaryView({ questions, userAnswers, onRestart, onRetryMistakes
                         })}
                     </div>
                 )}
-            </div>
-
-            <div className="p-6 shrink-0 bg-white border-t border-slate-100 space-y-3">
-                {wrongAnswers.length > 0 && (
-                    <button
-                        onClick={onRetryMistakes}
-                        className="w-full flex items-center justify-center space-x-2 py-4 rounded-xl text-lg font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 transition-colors"
-                    >
-                        <RefreshCw size={20} />
-                        <span>Retry Mistakes Only</span>
-                    </button>
-                )}
-                <button
-                    onClick={onRestart}
-                    className="w-full flex items-center justify-center space-x-2 py-4 rounded-xl text-lg font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"
-                >
-                    <RefreshCw size={20} />
-                    <span>Start New Quiz</span>
-                </button>
             </div>
         </div>
     );
