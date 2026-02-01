@@ -1,0 +1,3286 @@
+[
+  {
+    "question": "Ce fel de limbaj este C#?",
+    "source": 2,
+    "answers": [
+      {
+        "answerText": "orientat pe obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "structurat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "funcțional",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate trei",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Ce este un obiect?",
+    "source": 2,
+    "answers": [
+      {
+        "answerText": "o structură ce reprezintă doar date",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "construcție ce permite modularizarea unui program",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o structură ce conține date și  funcționalitate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "un tip de date",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă atributele unui obiect?",
+    "source": 2,
+    "answers": [
+      {
+        "answerText": "datele",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "comportamentul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "interfața publică",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "semnătura obiectului",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce definește semnătura unei metode C#",
+    "source": 2,
+    "answers": [
+      {
+        "answerText": "numele metodei",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "numele metodei, tipul si ordinea parametrilor",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "numele metodei și tipul returnat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "numele metodei, tipul parametrilor și tipul returnat",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum sunt accesate atributele într-un limbaj OO?",
+    "source": 2,
+    "answers": [
+      {
+        "answerText": "direct prin citirea/scrierea câmpurilor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "pot  fi doar inițializate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "prin metode speciale numite Getters and Setters",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "nu pot fi accesate din cauza încapsulării",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Prin ce se diferențiază POO de programarea structurată?",
+    "source": 2,
+    "answers": [
+      {
+        "answerText": "date și comportament împreună",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "separarea datelor de comportament",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "access la date necontrolat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "date globale",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru crearea obiectelor?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Composite",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mediator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Prototype",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru structură?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Proxy",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Singleton",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "State",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru comportament?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Template Method",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Bridge",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Builder",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane de proiectare este un anti-șablon?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Singleton",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Service Locator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Coding by Exceptions",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce garantează șablonul Singleton în cadrul unei aplicații?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Crearea rapidă a obiectelor prin clonare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " O singură instanță a clasei și un punct global de acces",
+        "correctAnswer": true
+      },
+      {
+        "answerText": " Separarea construcției de reprezentare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Crearea de familii de obiecte înrudite",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce Factory Method reduce cuplarea comparativ cu instanțierea directă folosind new?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Factory creează obiecte mai rapid decât operatorul new",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Factory Method elimină complet nevoia de constructori",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Obiectele create prin Factory sunt immutable",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Codul client depinde de interfață, nu de clase concrete",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Trebuie să creezi obiecte complexe pas cu pas (ex: configurare motor PLC). Ce șablon alegi?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Singleton - pentru acces global la motor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Prototype - pentru clonarea configurației",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Builder - pentru construcție incrementală",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Factory Method - pentru tipuri diferite de motoare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce Singleton este considerat anti-pattern în multe contexte moderne?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Creează dependențe ascunse și dificultăți în testare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Consumă prea multă memorie în aplicații",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nu funcționează cu moștenirea claselor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Este incompatibil cu programarea orientată pe obiecte",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când sunt recomandate șabloanele creaționale în proiectarea software?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Când codul trebuie să ruleze mai rapid",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când vrem flexibilitate în ce obiecte se creează",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când avem nevoie de mai multe fire de execuție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când interfața grafică trebuie actualizată",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este rolul principal al șablonului Adapter?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Adaugă funcționalități noi unui obiect existent",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Oferă o interfață simplificată pentru un subsistem",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Convertește interfața unei clase în alta așteptată de client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Controlează accesul la un obiect prin intermediar",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ai un sistem SCADA complex cu multe module. Vrei o interfață simplă pentru clienți. Ce alegi?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Adapter - pentru compatibilitate între module",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Proxy - pentru control acces la module",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Facade - pentru interfață simplificată la subsistem",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Composite - pentru ierarhie de module",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când NU este recomandat să folosești Decorator în loc de moștenire?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Când ai puține extensii fixe și performanța e critică",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când vrei combinații multiple de comportamente",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când ierarhia de clase ar deveni prea adâncă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când comportamentul trebuie adăugat la runtime",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este scopul principal al șabloanelor structurale?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Definirea comunicării dintre obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Compunerea obiectelor în structuri mari și complexe",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Flexibilitatea în crearea obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Implementarea funcționalității Undo/Redo",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce avantaj major oferă Strategy față de un bloc switch/case pentru alegerea algoritmilor?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Strategy este mai rapid în execuție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Algoritmii sunt încapsulați și interschimbabili fără a modifica client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Switch/case nu funcționează cu tipuri string",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Strategy reduce numărul de linii de cod",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Vrei să implementezi Undo/Redo pentru comenzi trimise la un controler industrial. Ce șablon?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Observer - pentru notificări despre comenzi",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Strategy - pentru algoritmi de control diferiți",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Command - pentru încapsularea și stocarea cererilor",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "State - pentru schimbarea comportamentului",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce tip de relație definește șablonul Observer între obiecte?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Unu-la-unu: un obiect comunică cu exact un altul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mulți-la-mulți: toate obiectele comunică între ele",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Unu-la-mulți: schimbarea stării notifică toți observatorii",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Ierarhică: obiectele comunică doar cu părintele",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este un dezavantaj major al Observer în sisteme cu mulți observatori?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": " Poate cauza probleme de performanță și cascade de notificări",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Nu permite decuplarea obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Observatorii nu pot fi adăugați la runtime",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Funcționează doar cu tipuri primitive",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "În ce situații sunt cele mai utile șabloanele comportamentale?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Când avem nevoie de structuri ierarhice de obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când vrem să controlăm procesul de creare a obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când definim comunicarea și fluxul de control între obiecte",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când convertim interfețe incompatibile",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este moștenirea în programarea orientată pe obiecte?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "permite unei clase dobândească atributele și comportamentul alteia",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "permite ascunde detaliile interne ale unui obiect",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "permite crearea  de metode multiple cu parametri diferiți",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "permite combinarea mai multor clase într-una singură",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este polimorfismul în programarea orientată pe obiecte?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "Capacitatea de a ascunde detaliile interne ale unui obiect",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Capacitatea de a crea o nouă clasă dintr-o clasă existentă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Capacitatea unei variabile de a lua mai multe forme",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Capacitatea de a combina mai multe clase într-una singură",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este compoziția în programarea orientată pe obiecte?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "O clasă dobândește proprietățile alteia",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "principiu de design în care o clasă conține o referință la alta",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Ascunde detaliile interne ale unui obiect",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "crearea de metode multiple cu parametri diferiți",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care dintre următoarele descrie cel mai bine compoziția?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "\"Are-o\" (\"Has-a\")",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "\"Este-o\" (\"Is-a\")",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "\"Folosește-o\" (\"Uses-a\")",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "\"Moștenește-o\" (\"Inherits-a\")",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații nu este recomandată ca o practică bună?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "restricționarea accesului la atribute și anumite metode",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "sunt preferate obiecte mici",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atributele nu pot face parte din interfață",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se preferă inițializare implicită",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații NU este adevărată pentru un constructor C#?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "punct de intrare pentru o clasă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metoda ce are același nume cu al clasei",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "returnează obiectul creat",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "apelat automat la crearea unui obiect",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Construiți o interfață pt. un panou de comandă. PowerButton (special ce controlează alimentarea) ar trebui să moștenească din Button?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "Da",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Nu",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Pt. achiziția de date. Interfața Sensor definește metoda ReadValue(). Clasa DataAcquisitionUnit trebuie să citească de la diferiți senzori.",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "Compoziție",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nici o relație",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Aveți un sistem de senzori. Care este relația între Sensor și CalibratedSensor?",
+    "source": 3,
+    "answers": [
+      {
+        "answerText": "Compoziție",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nici o relație",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este important pentru o gândire OO",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "gândirea concretă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "interfața cât mai cuprinzătoare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "combinarea interfeței cu implementarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "gândirea abstractă",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Care interfață este mai utilă pentru a reprezenta un taxi?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "de tip navigație (stânga, drapta, etc.))",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "specificarea destinației",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Ce trebuie să știe utilizatorul unei clase ?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "implementarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "interfața",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Implementarea este . . .",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "esențială pentru apelarea comportamentului ",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "limitată de ce are nevoie utilizatorul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "ascunsă utilizatorului",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "reprezentată doar de atribute",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce înțelegeți prin: interfața și implementarea unei clase trebuie separate?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "interfața și implementarea se pun in fișiere diferite",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "modificarea interfeței nu trebuie să afecteze implementarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "modificarea implementării nu trebuie să afecteze interfața",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "interfața și implementarea nu pot fi separate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele metode fac parte din interfața carnetului de note al unui student?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "listare note finale",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "calculare notă finală la disciplină",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "schimbare nume student",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "calculare medie finală pentru un an",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele atribute fac parte din implementarea carnetului de note pentru un student?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "nr. matricol student",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "lista note disciplină",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "media anuală",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "nici una",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Pentru carnetul de note al unui student ce reprezintă operația de salvare in fișier?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "Interfață",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Implementare",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Schimbarea interfeței generează modificări semnificative pentru utilizator?",
+    "source": 4,
+    "answers": [
+      {
+        "answerText": "DA",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "NU",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este un constructor?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "metodă ce returnează un obiect nou",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodă apelată automat  pentru inițializarea unui obiect",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "metodă ce returnează void",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodă care nu poate avea parametri",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când este apelat un constructor?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "înainte de alocarea memoriei obiectului",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "înainte de apelul unei metode",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "după inițializarea atributelor",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Următoarea clasă are constructor?",
+    "source": 5,
+    "image": "https://images.mentimeter.com/images/3f7b17cc-733c-4b84-ae53-b33f3a6b4f52.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=94d1f480fba4dd9c3f1db99003e8a2cc",
+    "answers": [
+      {
+        "answerText": "Da",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Nu",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "La ce ajută supraîncărcarea constructorilor?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "schimbarea comportamentului unei metode",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "schimbarea comportamentului moștenit",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "declararea mai multor atribute cu același nume dar tip diferit",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "crearea unui obiect în mai multe moduri",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Când este apelat constructorul clasei de bază?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "înainte de constructorul clasei copil",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "după constructorul clasei copil",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "nu este apelat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "în același timp cu constructorul clasei copil",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este un constructor implicit?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "orice constructor fără parametri",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "un constructor generat de compilator când nu există unul declarat",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "primul constructor declarat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "un constructor care poate inițializa atributele la valori specificate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă valoarea null?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "este echivalentul valorii 0",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "valoarea implicită pentru orice variabilă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "valoarea implicită pentru o variabilă de tip clasă neinițializată",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "reprezintă un șir de caractere gol",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă \"extension method\"?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "o metodă ce suprascrie o metodă a clasei părinte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o metodă statică ce primește ca argument instanța obiectului extins",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "o metodă nouă în calsa copil care nu există în clasa părinte",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce se întâmplă mai întâi la aruncarea unei excepții?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "execuția codului continuă neîntreruptă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se sare la primul bloc catch  care poate trata excepția",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "execuția programului  se oprește",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se execută blocul finally dacă acesta există",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum trebuie logată o excepție?",
+    "source": 5,
+    "answers": [
+      {
+        "answerText": "se loghează rezultatul apelului ToString()",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "se loghează mesajul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se parcurge stiva de apelare și se loghează fiecare apel",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se loghează tipul excepției",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce se întâmplă cu variabila count din a doua metodă?",
+    "source": 5,
+    "image": "https://images.mentimeter.com/images/b4204792-f6c8-45d9-b22f-b4ec69f94265.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=25c60bf2150de0810a83bb6a41480e6b",
+    "answers": [
+      {
+        "answerText": "ascunde atributul clasei",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "are aceeași valoare cu atributul clasei",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "are aceeași valoare cu variabila din prima metodă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "codul este invalid",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este un constructor?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "metodă ce returnează un obiect nou",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodă apelată automat  pentru inițializarea unui obiect",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "metodă ce returnează void",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodă care nu poate avea parametri",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când este apelat un constructor?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "înainte de alocarea memoriei obiectului",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "înainte de apelul unei metode",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "după inițializarea atributelor",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Următoarea clasă are constructor?",
+    "source": 6,
+    "image": "https://images.mentimeter.com/images/3f7b17cc-733c-4b84-ae53-b33f3a6b4f52.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=94d1f480fba4dd9c3f1db99003e8a2cc",
+    "answers": [
+      {
+        "answerText": "Da",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Nu",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "La ce ajută supraîncărcarea constructorilor?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "schimbarea comportamentului unei metode",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "schimbarea comportamentului moștenit",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "declararea mai multor atribute cu același nume dar tip diferit",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "crearea unui obiect în mai multe moduri",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Când este apelat constructorul clasei de bază?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "înainte de constructorul clasei copil",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "după constructorul clasei copil",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "nu este apelat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "în același timp cu constructorul clasei copil",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce este un constructor implicit?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "orice constructor fără parametri",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "un constructor generat de compilator când nu există unul declarat",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "primul constructor declarat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "un constructor care poate inițializa atributele la valori specificate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă valoarea null?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "este echivalentul valorii 0",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "valoarea implicită pentru orice variabilă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "valoarea implicită pentru o variabilă de tip clasă neinițializată",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "reprezintă un șir de caractere gol",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă \"extension method\"?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "o metodă ce suprascrie o metodă a clasei părinte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o metodă statică ce primește ca argument instanța obiectului extins",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "o metodă nouă în calsa copil care nu există în clasa părinte",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce se întâmplă mai întâi la aruncarea unei excepții?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "execuția codului continuă neîntreruptă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se sare la primul bloc catch  care poate trata excepția",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "execuția programului  se oprește",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se execută blocul finally dacă acesta există",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum trebuie logată o excepție?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "se loghează rezultatul apelului ToString()",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "se loghează mesajul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se parcurge stiva de apelare și se loghează fiecare apel",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se loghează tipul excepției",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce se întâmplă cu variabila count din a doua metodă?",
+    "source": 6,
+    "image": "https://images.mentimeter.com/images/b4204792-f6c8-45d9-b22f-b4ec69f94265.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=25c60bf2150de0810a83bb6a41480e6b",
+    "answers": [
+      {
+        "answerText": "ascunde atributul clasei",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "are aceeași valoare cu atributul clasei",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "are aceeași valoare cu variabila din prima metodă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "codul este invalid",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce se urmărește în POO?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "crearea unui model al lumii reale",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "crearea unui model al bazei de date",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "să se folosească cât mai mult moștenirea",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații despre numele unei clase sunt adevărate?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "este folosit pentru a crea o instanță",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "trebuie să fie util pentru a identifica ce face clasa",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "trebuie să respecte conveții specifice limajului",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce poate fi folosit pentru a clarifica funcționalitatea unei clase?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "atributele",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "comentariile",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "metodele private",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "implementarea",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Instanța unei clase poate accesa membrii privați ai unei alte instanțe?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "Întotdeauna",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Doar dacă sunt instanțe ale aceleiași clase",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Membrii privați nu pot fi accesați  direct",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care sunt responsabilitățile unui constructor?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "inițializarea atributelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "gestionarea memoriei",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "respectarea condițiilor inițiale",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă injectarea prin constructor?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "inițializarea explicită a atributelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "inițializarea implicită a atributelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "crearea instanțelor claselor serviciu în constructor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "trimiterea instanțelor claselor serviciu ca parametri în constructor",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Ce se întâmplă dacă contactul NU este valid?",
+    "source": 6,
+    "image": "https://images.mentimeter.com/images/639da073-ba8f-4308-ad51-3910f3b8c4e9.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=3caabc0e3d1703eaf7ccaa0afba89799",
+    "answers": [
+      {
+        "answerText": "este adăugat în listă  dar se returnează și mesajul de eroare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "contactul NU este adăugat în listă și se returnează un mesaj de eroare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "codul nu este corect, nu putem returna două rezultate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații sunt adevărate vis-a-vis de cuvântul cheie \"const\"?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "inițializarea la rulare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "permite inițializarea folosind un constructor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se poate folosi pentru atributele clasei și ale instanței",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Cum sunt transmise instanțele obiectelor către o metodă?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "se trimite o copie a întregului obiect",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se trimite doar o referință la zona de memorie unde este obiectul",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "nu se poate trimite un obiect către o metodă",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce returnează metoda Find?",
+    "source": 6,
+    "image": "https://images.mentimeter.com/images/3bb1ca4e-0294-49c4-923b-e319f12e0e8e.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=843a4376a60eafff48c39dc95df7fb73",
+    "answers": [
+      {
+        "answerText": "toate contactele ce conțin stringul din nume",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "primul contact ce conține stringul din nume",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "ultimul contact ce conține stringul din nume",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate contactele care conțin exact caracterele din nume",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații sunt adevărate vis-a-vis de metodele publice și cele private?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "putem simplifica codul descompunând metodele private în metode publice",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodele publice sunt apelate de cele  private",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodele private sunt apelate de cele publice",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "trebuie să avem mai multe metode publice decât private",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Câte contacte vor fi în agendă după executarea următorului cod?",
+    "source": 6,
+    "image": "https://images.mentimeter.com/images/c7a4cb1e-77fb-4f61-a664-f8bab20675f9.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=c162d106da7958230f3d002570e57d97",
+    "answers": [
+      {
+        "answerText": "1",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "2",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "0",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "nedefinit",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum putem evita aruncarea de excepții la crearea obiectelor?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "nu putem, trebuie să avem o stare inițială validă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "putem folosi un constructor privat și o metodă de tip factory",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "folosim un parametru de tip out pentru constructor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "returnăm un mesaj de eroare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce se poate face când parametrii trimiși către un constructor sunt invalizi?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "se returnează un mesaj de eroare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se returnează",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se aruncă o excepție",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "se returnează un obiect null",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum este reprezentată starea unui obiect în general (indiferent de limbaj)?",
+    "source": 6,
+    "answers": [
+      {
+        "answerText": "proprietăți",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atribute",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "metode publice",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metode private",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele probleme pot fi cauzate de lipsa documentației?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "folosirea greșită a clasei",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "duplicare de cod și efort",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "modificarea eronată a funcționalității",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce presupune proiectarea claselor pemtru reutilizare?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "trebuie ținut cont de locurile unde va fi folosită clasa",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "trebuie identificate toate  scenariile  îm care va fi folosită clasa",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum poate fi abstractizat codul care nu este portabil? (un singur cuvânt EN/RO)",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "învelitoare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "wrapper",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "invelitoare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "invelis",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "înveliș",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concepte OOP folosim pentru a modela o companie ce se ocupă cu vânzarea proprietăților care pot fi terenuri, apartamente și case?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "supraîncărcarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concepte OOP folosim pentru a modela adunarea valorilor de tip double, int și float în orice combinație?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "supraîncărcarea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziție",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concepte OOP folosim pentru a modela metode de calculare a mediilor diferite în funcție de disciplină?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire și compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire și polimorfism",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "compoziție și polimorfism",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care soluție este mai extensibilă vis-a-vis de modelarea unui angajat și a unui client în același program?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "Definirea a două clase complet separate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Definirea a două clase care moștenesc clasa Persoană",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Cum afectează membrii statici extensibilitatea?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "o cresc",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o scad",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații sunt adevărate vis-a-vis de scrierea comentariile?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "Trebuie explicată fiecare linie din cod",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Imposibilitatea de a scrie comentarii clare indică o problemă în cod",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Comentariile trebuie să explice codul prost scris",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce trebuie făcut când interacționăm cu un serviciu extern?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "apelăm serviciul unde este nevoie și folosim blocul try-catch",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "folosim o clasă wrapper și folosim try-catch",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "folosim o clasă wrapper, nu este nevoie de try-catch",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "apelăm serviciul direct, pentru simplitate nu abstractizăm",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce ajută la obținerea unui cod ușor de întreținut?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "descompunerea unei metode în metode mai mici",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "separarea codului în funcție de dependințe",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "separarea codului în clase decuplate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum modelăm o funcție utilitară ce permite formatarea valorilor de tip sume în LEI?",
+    "source": 7,
+    "answers": [
+      {
+        "answerText": "metodă a instanței",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "metodă a clasei",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "atribut al instanței",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atribut al clasei",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce presupune folosirea unei metode de dezvoltare iterativă?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "proiectarea detaliată urmată de începerea implementării",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "proiectarea superficială pentru a începe cât mai repede implementarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "validarea ideilor la final",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "începerea implementării înainte de a finaliza proiectarea",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Ce presupune analiza problemei?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "colaborarea cu utilizatorii pentru a identifica scopul și cerințele",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "citirea unei cărți pentru a înțelege domeniul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "documentare intensă pe Internet",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "se poate folosi AI-ul pentru a putea identifica nevoile utilizatorilor",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum trebuie să fie cerințele?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "axate pe aspecte tehnice",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "trebuie analizate din punctul de vedere al programatorului",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "axate pe nevoile utilizatorului",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Ce presupune proiectarea claselor pentru reutilizare?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "trebuie ținut cont de locurile unde va fi folosită clasa",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "trebuie identificate toate  scenariile  îm care va fi folosită clasa",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concepte OOP folosim pentru a modela o companie ce se ocupă cu vânzarea proprietăților care pot fi terenuri, apartamente și case?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "supraîncărcarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concepte OOP folosim pentru a modela adunarea valorilor de tip double, int și float în orice combinație?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "supraîncărcarea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziție",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concepte OOP folosim pentru a modela metode de calculare a mediilor diferite în funcție de disciplină?",
+    "source": 8,
+    "answers": [
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire și compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire și polimorfism",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "compoziție și polimorfism",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Este recomandată refolosirea de tip copy-paste?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "Da",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nu",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele elemente definește un contract?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "numele metodelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "tipul parametriilor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "tipul returnat",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "proprietățile",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele scenarii sunt recomandate pentru definirea interfețelor?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "Decuplarea codului",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mocking pentru testarea unitară",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Injecția de dependințe",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Polimorfism",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Folosirea exagerată a interfețelor poate genera complexitate accidentală?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "DA",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "NU",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce tehnologie putem folosi pentru a controla instanțierea obiectelor în .net core? (două cuvinte în engleză)",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "generic host",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "generichost",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Generic Host",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "GenericHost",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Generic Host Builder",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Prin ce se diferențiază implementarea (interfețelor) de moștenire?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "nu se diferențiază",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "permite doar moștenirea atributelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "permite doar moștenirea comportamentului",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "permite implementare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum putem modifica contractul formelor geometrice pentru a permite selecția culorii atunci când desenăm o formă geometrică?",
+    "source": 10,
+    "image": "https://images.mentimeter.com/images/954519d9-017b-4648-9650-49f3e7a5bbc2.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=012969ab255a2c0bf3395728a0d802b3",
+    "answers": [
+      {
+        "answerText": "adăugăm parametru/atribut pentru  selecția culorii",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "citim de la consolă culoarea in metoda draw",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "folosim un atribut static",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "supraîncărcăm metoda draw in fiecare clasă copil",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele  concepte OO ajută la proiectarea unei platforme refolosibile?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "moștenirea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "clasele abstracte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "interfețele",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "compoziția",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele afirmații este FALSĂ vis-a-vis de utilizarea interfețelor într-un limbaj OO?",
+    "source": 10,
+    "answers": [
+      {
+        "answerText": "declară metode fără implementare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o clasă poate implementa una sau mai multe interfețe",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o interfață nu poate defini atribute",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "o clasă poate alege ce metode implementează",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Compoziția ajută la crearea de părți interschimbabile. Ce favorizează acest lucru? (un singur cuvânt în română)",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "reutilizare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "încapsulare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "abstractizare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este cel mai des întâlnit concept OOP prin care se realizează reutilizarea?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "compoziție",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "mostenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "suprascriere",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "încapsulare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este cuvântul cheie care marchează atributele clasei?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "static",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "virtual",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "public",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "abstract",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum poate fi abstractizat codul care nu este portabil? (un singur cuvânt EN/RO)",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "wrapper",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "cloner",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "iterator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "singleton",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce concept OO este folosit in testarea unitară pentru izola clasele testate de dependințe? (un singur cuvânt în română fără diacritice)",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "polimorfism",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "încapsulare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "moștenire",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "instanțiere",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Favorizează compoziția separarea responsabilităților?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "DA",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "NU",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "În care tip de compoziție se văd componentele sistemului în exterior?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "Agregarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Asocierea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Ambele",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum pot fi reprezentate relațiile opționale de tip 1-la-1 între clasele A si B?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "atribut ce nu poate fi null și un șir cu cel puțin un element",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atribute enumerare cu cel puțin un element",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atribute care pot fi null",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "nu pot fi reprezentate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum pot fi reprezentate relațiile 1-la-n între două clase A și B?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "atribut enumerare ce leagă A de B si atribut nenul ce leagă B de A",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "atribut enumerare ce leagă B de A si atribut nenul ce leagă A de B",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atribute care pot fi null",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "nu pot fi reprezentate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum pot fi reprezentate relațiile m-la-n între două clase A și B?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "atribute ce leagă A de B si B de A",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "atribute enumerare in ambele clase",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "valori care pot fi null",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "nu pot fi reprezentate",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care tip de compoziție prezintă o fiabilitate mai ridicată atunci când se folosește un obiect compus?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "Agregarea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Asocierea",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Care tip de compoziție prezintă o complexitate mai scăzută atunci când se folosește un obiect compus?",
+    "source": 11,
+    "answers": [
+      {
+        "answerText": "Agregarea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Asocierea",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru crearea obiectelor?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Composite",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mediator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Prototype",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru structură?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Proxy",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Singleton",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "State",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru comportament?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Template Method",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Bridge",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Builder",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane de proiectare este un anti-șablon?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Singleton",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Service Locator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Coding by Exceptions",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce garantează șablonul Singleton în cadrul unei aplicații?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Crearea rapidă a obiectelor prin clonare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " O singură instanță a clasei și un punct global de acces",
+        "correctAnswer": true
+      },
+      {
+        "answerText": " Separarea construcției de reprezentare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Crearea de familii de obiecte înrudite",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce Factory Method reduce cuplarea comparativ cu instanțierea directă folosind new?",
+    "source": 13,
+    "image": "https://images.mentimeter.com/images/e0d20c7f-60e6-4fc7-bdfe-0794943b64a1.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=73e23149ed016dda804d637e62e3a827",
+    "answers": [
+      {
+        "answerText": "Factory creează obiecte mai rapid decât operatorul new",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Factory Method elimină complet nevoia de constructori",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Obiectele create prin Factory sunt immutable",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Codul client depinde de interfață, nu de clase concrete",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Trebuie să creezi obiecte complexe pas cu pas (ex: configurare motor PLC). Ce șablon alegi?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Singleton - pentru acces global la motor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Prototype - pentru clonarea configurației",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Builder - pentru construcție incrementală",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Factory Method - pentru tipuri diferite de motoare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce Singleton este considerat anti-pattern în multe contexte moderne?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Creează dependențe ascunse și dificultăți în testare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Consumă prea multă memorie în aplicații",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nu funcționează cu moștenirea claselor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Este incompatibil cu programarea orientată pe obiecte",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când sunt recomandate șabloanele creaționale în proiectarea software?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Când codul trebuie să ruleze mai rapid",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când vrem flexibilitate în ce obiecte se creează",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când avem nevoie de mai multe fire de execuție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când interfața grafică trebuie actualizată",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este rolul principal al șablonului Adapter?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Adaugă funcționalități noi unui obiect existent",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Oferă o interfață simplificată pentru un subsistem",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Convertește interfața unei clase în alta așteptată de client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Controlează accesul la un obiect prin intermediar",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când NU este recomandat să folosești Decorator în loc de moștenire?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Când ai puține extensii fixe și performanța e critică",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când vrei combinații multiple de comportamente",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când ierarhia de clase ar deveni prea adâncă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când comportamentul trebuie adăugat la runtime",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este scopul principal al șabloanelor structurale?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Definirea comunicării dintre obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Compunerea obiectelor în structuri mari și complexe",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Flexibilitatea în crearea obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Implementarea funcționalității Undo/Redo",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce tip de relație definește șablonul Observer între obiecte?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Unu-la-unu: un obiect comunică cu exact un altul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mulți-la-mulți: toate obiectele comunică între ele",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Unu-la-mulți: schimbarea stării notifică toți observatorii",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Ierarhică: obiectele comunică doar cu părintele",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ai un sistem SCADA complex cu multe module. Vrei o interfață simplă pentru clienți. Ce alegi?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Adapter - pentru compatibilitate între module",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Proxy - pentru control acces la module",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Facade - pentru interfață simplificată la subsistem",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Composite - pentru ierarhie de module",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce avantaj major oferă Strategy față de un bloc switch/case pentru alegerea algoritmilor?",
+    "source": 13,
+    "image": "https://images.mentimeter.com/images/7a9cffa2-d379-4890-b179-c65dcf670c1a.png?auto=compress%2Cformat&fm=png&expires=1772582399&s=5d3c648b76693c67a25289e0e2f3dd0c",
+    "answers": [
+      {
+        "answerText": "Strategy este mai rapid în execuție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Algoritmii sunt încapsulați și interschimbabili fără a modifica client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Switch/case nu funcționează cu tipuri string",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Strategy reduce numărul de linii de cod",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Vrei să implementezi Undo/Redo pentru comenzi trimise la un controler industrial. Ce șablon?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Observer - pentru notificări despre comenzi",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Strategy - pentru algoritmi de control diferiți",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Command - pentru încapsularea și stocarea cererilor",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "State - pentru schimbarea comportamentului",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este un dezavantaj major al Observer în sisteme cu mulți observatori?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": " Poate cauza probleme de performanță și cascade de notificări",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Nu permite decuplarea obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Observatorii nu pot fi adăugați la runtime",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Funcționează doar cu tipuri primitive",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "În ce situații sunt cele mai utile șabloanele comportamentale?",
+    "source": 13,
+    "answers": [
+      {
+        "answerText": "Când avem nevoie de structuri ierarhice de obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când vrem să controlăm procesul de creare a obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când definim comunicarea și fluxul de control între obiecte",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când convertim interfețe incompatibile",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce reprezintă cuplarea în contextul POO?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Procesul de creare a obiectelor noi",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Moștenirea atributelor din clasa părinte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Dependența unei clase de o altă clasă",
+        "correctAnswer": true
+      },
+      {
+        "answerText": " Încapsularea datelor într-o clasă",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care nu este o consecință a cuplării strânse între obiecte?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "fragilitate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "imutabilitate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "calitate scăzută",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "refolosire",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele concepte OO pot genera cuplare?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "moștenirea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "polimorfismul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "încapsularea",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciuna",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Cum poate fi evitată cuplarea strânsă? (două cuvinte în RO/EN fără diacritice)",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Dependency Injection",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Static Binding",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Global State",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Direct Instantiation",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce afirmă principiul responsabilității unice (SRP)?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "O clasă trebuie să aibă o singură metodă publică",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "O clasă trebuie să aibă un singur motiv de modificare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "O clasă trebuie să moștenească o singură clasă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "O clasă trebuie să implementeze o singură interfață",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Conform OCP, o clasă trebuie să fie:",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Deschisă pentru extindere, închisă pentru modificare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Deschisă pentru modificare, închisă pentru extindere",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Închisă pentru moștenire și compoziție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Deschisă doar pentru testare unitară",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce afirmă principiul substituției Liskov (LSP)?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Clasele copil pot modifica comportamentul părintelui",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Instanțele clasei copil pot înlocui instanțele părintelui",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Clasele părinte pot fi înlocuite cu interfețe",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Substituția funcționează doar cu clase abstracte",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce recomandă principiul segregării interfețelor (ISP)?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "O singură interfață mare pentru tot sistemul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Interfețe doar pentru clasele abstracte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Evitarea completă a interfețelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mai multe interfețe mici în loc de câteva mari",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Conform DIP, codul ar trebui să depindă de:",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Clase concrete și specifice",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Abstracții (interfețe sau clase abstracte)",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Metode statice",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Variabile globale",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "O clasă SensorManager citește date, le validează și le salvează în BD. Ce încalcă?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Principiul încapsulării",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Principiul OC - sistemul nu poate fi extins",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Principiul SI - prea multe metode in interfață",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Principiul SRP - are mai multe responsabilități",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "O interfață IMașină conține Accelerează(), Frânează(), Zboară(). Ce problemă apare?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Clasa Auto este forțată să implementeze Zboară() inutil",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Prea puține metode în interfață",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Interfața este prea mică",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Metodele nu sunt virtuale",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce clasa Pătrat ca subclasă a Dreptunghi poate încălca LSP?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Formula de calcul a suprafeței este diferită în cele două cazuri",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Dreptunghiul nu poate avea două laturi egale",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Setarea lățimii modifică și înălțimea, surprinzând codul client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Pătratul necesită mai mulți parametri",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "În sistemul de automatizare, ControllerPLC depinde direct de SenzorConcret. Cum aplicăm DIP?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Facem SenzorConcret o clasă statică",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Introducem interfața ISenzor și depindem de ea",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Moștenim ControllerPLC din SenzorConcret",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Combinăm clasele într-una singură",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Pentru a adăuga un nou tip de senzor fără a modifica codul existent, ce tehnică aplicăm?",
+    "source": 14,
+    "answers": [
+      {
+        "answerText": "Adăugăm o nouă metodă statică",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Modificăm switch-ul din clasa existentă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Creăm o subclasă ce extinde comportamentul de bază",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Folosim reflexia pentru a detecta tipul",
+        "correctAnswer": false
+      }
+    ]
+  }
+]

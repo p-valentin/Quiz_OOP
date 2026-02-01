@@ -1,0 +1,396 @@
+[
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru crearea obiectelor?",
+    "answers": [
+      {
+        "answerText": "Composite",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mediator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Prototype",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru structură?",
+    "answers": [
+      {
+        "answerText": "Proxy",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Singleton",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "State",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane este un șablon pentru comportament?",
+    "answers": [
+      {
+        "answerText": "Template Method",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Bridge",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Builder",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care din următoarele șabloane de proiectare este un anti-șablon?",
+    "answers": [
+      {
+        "answerText": "Singleton",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Service Locator",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Coding by Exceptions",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "toate",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "niciunul",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce garantează șablonul Singleton în cadrul unei aplicații?",
+    "answers": [
+      {
+        "answerText": "Crearea rapidă a obiectelor prin clonare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " O singură instanță a clasei și un punct global de acces",
+        "correctAnswer": true
+      },
+      {
+        "answerText": " Separarea construcției de reprezentare",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Crearea de familii de obiecte înrudite",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce Factory Method reduce cuplarea comparativ cu instanțierea directă folosind new?",
+    "answers": [
+      {
+        "answerText": "Factory creează obiecte mai rapid decât operatorul new",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Factory Method elimină complet nevoia de constructori",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Obiectele create prin Factory sunt immutable",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Codul client depinde de interfață, nu de clase concrete",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "question": "Trebuie să creezi obiecte complexe pas cu pas (ex: configurare motor PLC). Ce șablon alegi?",
+    "answers": [
+      {
+        "answerText": "Singleton - pentru acces global la motor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Prototype - pentru clonarea configurației",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Builder - pentru construcție incrementală",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Factory Method - pentru tipuri diferite de motoare",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "De ce Singleton este considerat anti-pattern în multe contexte moderne?",
+    "answers": [
+      {
+        "answerText": "Creează dependențe ascunse și dificultăți în testare",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Consumă prea multă memorie în aplicații",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Nu funcționează cu moștenirea claselor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Este incompatibil cu programarea orientată pe obiecte",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când sunt recomandate șabloanele creaționale în proiectarea software?",
+    "answers": [
+      {
+        "answerText": "Când codul trebuie să ruleze mai rapid",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când vrem flexibilitate în ce obiecte se creează",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când avem nevoie de mai multe fire de execuție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când interfața grafică trebuie actualizată",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este rolul principal al șablonului Adapter?",
+    "answers": [
+      {
+        "answerText": "Adaugă funcționalități noi unui obiect existent",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Oferă o interfață simplificată pentru un subsistem",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Convertește interfața unei clase în alta așteptată de client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Controlează accesul la un obiect prin intermediar",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ai un sistem SCADA complex cu multe module. Vrei o interfață simplă pentru clienți. Ce alegi?",
+    "answers": [
+      {
+        "answerText": "Adapter - pentru compatibilitate între module",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Proxy - pentru control acces la module",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Facade - pentru interfață simplificată la subsistem",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Composite - pentru ierarhie de module",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Când NU este recomandat să folosești Decorator în loc de moștenire?",
+    "answers": [
+      {
+        "answerText": "Când ai puține extensii fixe și performanța e critică",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când vrei combinații multiple de comportamente",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când ierarhia de clase ar deveni prea adâncă",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când comportamentul trebuie adăugat la runtime",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este scopul principal al șabloanelor structurale?",
+    "answers": [
+      {
+        "answerText": "Definirea comunicării dintre obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Compunerea obiectelor în structuri mari și complexe",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Flexibilitatea în crearea obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Implementarea funcționalității Undo/Redo",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce avantaj major oferă Strategy față de un bloc switch/case pentru alegerea algoritmilor?",
+    "answers": [
+      {
+        "answerText": "Strategy este mai rapid în execuție",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Algoritmii sunt încapsulați și interschimbabili fără a modifica client",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Switch/case nu funcționează cu tipuri string",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Strategy reduce numărul de linii de cod",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Vrei să implementezi Undo/Redo pentru comenzi trimise la un controler industrial. Ce șablon?",
+    "answers": [
+      {
+        "answerText": "Observer - pentru notificări despre comenzi",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Strategy - pentru algoritmi de control diferiți",
+        "correctAnswer": false
+      },
+      {
+        "answerText": " Command - pentru încapsularea și stocarea cererilor",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "State - pentru schimbarea comportamentului",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Ce tip de relație definește șablonul Observer între obiecte?",
+    "answers": [
+      {
+        "answerText": "Unu-la-unu: un obiect comunică cu exact un altul",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Mulți-la-mulți: toate obiectele comunică între ele",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Unu-la-mulți: schimbarea stării notifică toți observatorii",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Ierarhică: obiectele comunică doar cu părintele",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "Care este un dezavantaj major al Observer în sisteme cu mulți observatori?",
+    "answers": [
+      {
+        "answerText": " Poate cauza probleme de performanță și cascade de notificări",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Nu permite decuplarea obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Observatorii nu pot fi adăugați la runtime",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Funcționează doar cu tipuri primitive",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "question": "În ce situații sunt cele mai utile șabloanele comportamentale?",
+    "answers": [
+      {
+        "answerText": "Când avem nevoie de structuri ierarhice de obiecte",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când vrem să controlăm procesul de creare a obiectelor",
+        "correctAnswer": false
+      },
+      {
+        "answerText": "Când definim comunicarea și fluxul de control între obiecte",
+        "correctAnswer": true
+      },
+      {
+        "answerText": "Când convertim interfețe incompatibile",
+        "correctAnswer": false
+      }
+    ]
+  }
+]

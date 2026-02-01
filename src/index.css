@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Custom styles using standard CSS or @apply */
+body {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+}
